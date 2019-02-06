@@ -1,6 +1,7 @@
 // @material-ui/icons
 import Dashboard from "@material-ui/icons/Dashboard";
 import Person from "@material-ui/icons/Person";
+import AddCircle from "@material-ui/icons/AddCircle";
 // import ContentPaste from "@material-ui/icons/ContentPaste";
 import LibraryBooks from "@material-ui/icons/LibraryBooks";
 import BubbleChart from "@material-ui/icons/BubbleChart";
@@ -21,15 +22,15 @@ const dashboardRoutes = [
   {
     path: "/dashboard",
     sidebarName: "Dashboard",
-    navbarName: "Material Dashboard",
+    navbarName: "Your Ball and Chains",
     icon: Dashboard,
     component: DashboardPage
   },
   {
     path: "/user",
-    sidebarName: "User Profile",
-    navbarName: "Profile",
-    icon: Person,
+    sidebarName: "New Contract",
+    navbarName: "Start a Contract",
+    icon: AddCircle,
     component: UserProfile
   },
   {
@@ -54,25 +55,11 @@ const dashboardRoutes = [
     component: Icons
   },
   {
-    path: "/maps",
-    sidebarName: "Maps",
-    navbarName: "Map",
-    icon: LocationOn,
-    component: Maps
-  },
-  {
     path: "/notifications",
     sidebarName: "Notifications",
     navbarName: "Notifications",
     icon: Notifications,
     component: NotificationsPage
-  },
-  {
-    path: "/upgrade-to-pro",
-    sidebarName: "Upgrade To PRO",
-    navbarName: "Upgrade To PRO",
-    icon: Unarchive,
-    component: UpgradeToPro
   },
   { redirect: true, path: "/", to: "/dashboard", navbarName: "Redirect" }
 ];

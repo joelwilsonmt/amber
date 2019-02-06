@@ -69,9 +69,9 @@ const Sidebar = ({ ...props }) => {
   );
   var brand = (
     <div className={classes.logo}>
-      <a href="https://www.creative-tim.com" className={classes.logoLink}>
+      <a href="#" className={classes.logoLink}>
         <div className={classes.logoImage}>
-          <img src={logo} alt="logo" className={classes.img} />
+          {logo ? <img src={logo} alt="logo" className={classes.img} />: null}
         </div>
         {logoText}
       </a>

@@ -71,8 +71,8 @@ class App extends React.Component {
       <div className={classes.wrapper}>
         <Sidebar
           routes={dashboardRoutes}
-          logoText={"Creative Tim"}
-          logo={logo}
+          logoText={"Ball and Chain"}
+          logo={"https://seeklogo.com/images/B/blockchain-logo-A0FE252BA6-seeklogo.com.png"}
           image={image}
           handleDrawerToggle={this.handleDrawerToggle}
           open={this.state.mobileOpen}
