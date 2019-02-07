@@ -16,7 +16,7 @@ function Footer({ ...props }) {
           <span>
             &copy; {1900 + new Date().getYear()}{" "}
             <a href="#" className={classes.a}>
-              Ball and Chain
+              Amber Contracts
             </a>, made with love for a better web
           </span>
         </p>

@@ -22,7 +22,7 @@ const dashboardRoutes = [
   {
     path: "/dashboard",
     sidebarName: "Dashboard",
-    navbarName: "Your Ball and Chains",
+    navbarName: "Your Contract Dashboard",
     icon: Dashboard,
     component: DashboardPage
   },
