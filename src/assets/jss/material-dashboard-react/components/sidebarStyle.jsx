@@ -50,14 +50,15 @@ const sidebarStyle = theme => ({
     position: "relative",
     padding: "15px 15px",
     zIndex: "4",
+    textAlign: "center",
     "&:after": {
       content: '""',
-      position: "absolute",
+      /*position: "absolute",*/
       bottom: "0",
 
       height: "1px",
       right: "15px",
-      width: "calc(100% - 30px)",
+      width: "100%",
       backgroundColor: "rgba(180, 180, 180, 0.3)"
     }
   },
@@ -67,7 +68,7 @@ const sidebarStyle = theme => ({
     padding: "5px 0",
     display: "block",
     fontSize: "18px",
-    textAlign: "left",
+    textAlign: "center",
     fontWeight: "400",
     lineHeight: "30px",
     textDecoration: "none",
@@ -77,16 +78,14 @@ const sidebarStyle = theme => ({
     }
   },
   logoImage: {
-    width: "30px",
+    width: "90px",
     display: "inline-block",
-    maxHeight: "30px",
-    marginLeft: "10px",
-    marginRight: "15px"
+    maxHeight: "100px",
   },
   img: {
-    width: "35px",
+    width: "90px",
     top: "22px",
-    position: "absolute",
+    left: "-10px",
     verticalAlign: "middle",
     border: "0"
   },

@@ -71,9 +71,8 @@ class App extends React.Component {
       <div className={classes.wrapper}>
         <Sidebar
           routes={dashboardRoutes}
-          logoText={"Ball and Chain"}
-          logo={"https://seeklogo.com/images/B/blockchain-logo-A0FE252BA6-seeklogo.com.png"}
-          image={image}
+          logo={"https://i.imgur.com/UdI5yFK.png"}
+          image={"https://backgroundcheckall.com/wp-content/uploads/2017/12/amber-background-11.jpg"}
           handleDrawerToggle={this.handleDrawerToggle}
           open={this.state.mobileOpen}
           color="blue"
